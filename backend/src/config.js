@@ -14,20 +14,43 @@ const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo:4,
     layersOrder: [
       { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
+ 
+     
+      { name: "Eyeball" }, 
+     
+     /* { name: "Eye color" },
       { name: "Iris" },
       { name: "Shine" },
       { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "Top lid" },*/
+     
     ],
+
+    
+  },{
+    growEditionSizeTo:8,
+    layersOrder: [
+      { name: "Background" },
+ 
+     
+      { name: "Iris" }, 
+     
+     /* { name: "Eye color" },
+      { name: "Iris" },
+      { name: "Shine" },
+      { name: "Bottom lid" },
+      { name: "Top lid" },*/
+     
+    ],
+
+    
   },
 ];
 
-const shuffleLayerConfigurations = true;
+const shuffleLayerConfigurations = false;
 
 const debugLogs = false;
 
@@ -56,7 +79,7 @@ const OWNER_ADDRESS = '0x22C8889A3a2D00Fb3A40a0e3a0A336Ba28Ff973a';
 const TREASURY_ADDRESS = '0x22C8889A3a2D00Fb3A40a0e3a0A336Ba28Ff973a';
 const MAX_SUPPLY = 500; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 0.001; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
-const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
+const TOKENS_PER_MINT = 3; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PUBLIC_MINT_START_DATE = "2022-03-20T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
