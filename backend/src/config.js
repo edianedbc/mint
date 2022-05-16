@@ -24,7 +24,7 @@ const layerConfigurations = [
       { name: "Set 3 Ankle" }, 
       { name: "Set 3 Belt" },
         { name: "Set 3 Chest" },
-     
+      
      /* { name: "Eye color" },
       { name: "Iris" },
       { name: "Shine" },
