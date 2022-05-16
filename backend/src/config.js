@@ -18,12 +18,12 @@ const layerConfigurations = [
     layersOrder: [
  
       { name: "bg" },
-      { name: "Weapon" },
+      { name: "Set 3 Weapon" },
       { name: "Body" },
      
-      { name: "Ankle" }, 
-      { name: "Belt" },
-        { name: "Chest" },
+      { name: "Set 3 Ankle" }, 
+      { name: "Set 3 Belt" },
+        { name: "Set 3 Chest" },
      
      /* { name: "Eye color" },
       { name: "Iris" },
