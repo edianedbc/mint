@@ -34,7 +34,41 @@
             <div class="circular-spinner"></div>
         </section>
         <!--Preloader area End here-->
-        
+ <style>
+
+@media screen and (max-width: 1500px) and (min-width: 1200px) {
+.bithu_v2_baner_sect{
+
+ background-size: 1500px 100%;
+ 
+}
+}
+@media screen and (max-width: 1200px) and (min-width: 900px) {
+.bithu_v2_baner_sect{
+
+ background-size: 1200px 100%;
+ 
+}
+}
+@media screen and (max-width: 900px) and (min-width: 600px) {
+.bithu_v2_baner_sect{
+
+ background-size: 900px 100%;
+ 
+}
+}
+ @media screen and (max-width: 600px) and (min-width: 200px) {
+.bithu_v2_baner_sect{
+
+ background-size: 600px 100%;
+ 
+}
+}
+ 
+
+</style>
+
+
         <!--Header Start-->
         <div class="bithu_header" id="navbar">
             <div class="container">
@@ -124,7 +158,7 @@
         <!-- Banner Section Start -->
         <div class="bithu_v2_baner_sect" id="home">
             <div class="container">
-                <div class="bithu_v2_baner_content"  style="width:80%">
+                <div class="bithu_v2_baner_content"  >
                  <!--   <h2> <span class="mb-20"> </span> <br>Public Sale  COMING SOON ! </h2>
                       <h3><span class="count">9999</span> / 9999 MINTED</h3>
                   <div class="bithu_v2_timer">
@@ -799,5 +833,10 @@
         <script src="assets/js/faq.js"></script>
         <!-- main js -->
         <script src="assets/js/main.js"></script>
+		
+		<script>
+var g= $(window).width();
+alert(g);
+</script> 
 	</body>
 </html>
