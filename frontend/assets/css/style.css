@@ -794,10 +794,11 @@ body .modal-backdrop {
 .bithu_v2_baner_sect{
     background: url(../images/nft/v2_banner_bG.jpg);
     width: 100%;
+	height:100%;
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
-    padding: 192px 192px;
+    padding: 192px;
     display: flex;
     align-items: center;
     justify-content: center;
