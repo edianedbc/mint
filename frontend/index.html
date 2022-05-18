@@ -41,36 +41,36 @@
 .bithu_v2_baner_sect{
 
  background-size: 1500px 100%;
- height:1500px; 
+ height:100%;  
 }
 }
 @media screen and (max-width: 1200px) and (min-width: 900px) {
 .bithu_v2_baner_sect{
 
  background-size: 1200px 100%;
- height:1200px;  
+ height:100%;  
 }
 }
 @media screen and (max-width: 900px) and (min-width: 600px) {
 .bithu_v2_baner_sect{
 
  background-size: 900px 100%;
-  height:900px;  
+  height:100%;  
 }
 }
  @media screen and (max-width: 600px) and (min-width: 420px) {
 .bithu_v2_baner_sect{
 
- background-size: 600px 100%;
-   height:60px; 
- 
+ background-size: 600px 600px;
+ height:600px;  
+ width:600px;
  
 }
 } @media screen and (max-width: 420px) and (min-width: 200px) {
 .bithu_v2_baner_sect{
 
  background-size: 420px 100%;
- height:420px; 
+  height:40%;  
  
 }
 }
@@ -165,54 +165,52 @@
         <!-- Header Section End -->
 
         <!-- Banner Section Start -->
-        <div class="bithu_v2_baner_sect" id="home">
-            <div class="container">
-                <div class="bithu_v2_baner_content"  >
+<style>
+.container2 {
+    background: url(assets/images/nft/v2_banner_bG.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+   padding-top: 75%; /* 4:3 Aspect Ratio */
+}
+.text {
+   position:  absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   text-align: center;
+   font-size: 20px;
+   color: white; 
+   
+}
+</style>      
+ 
+
+<div class="container2"> 
+ <div class="text">  <div class="bithu_v2_baner_content"  >
 				
 				
 				
-                 <!--   <h2> <span class="mb-20"> </span> <br>Public Sale  COMING SOON ! </h2>
-                      <h3><span class="count">9999</span> / 9999 MINTED</h3>
-                  <div class="bithu_v2_timer">
-                        <h4>TIME LEFT</h4>
-                        <div class="timer timer_1">
-                            <ul>
-                                <li class="days">24<span>D</span></li>
-                                <li class="hours">15<span>H</span></li>
-                                <li class="minutes">44<span>M</span></li>
-                                <li class="seconds">18<span>S</span></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="bithu_v2_baner_buttons text-center">
+              
+                    <div class="bithu_v2_baner_buttons text-center" style="margin-top:30%;">
                         <button class="mint_btn hov_shape_show" data-bs-toggle="modal" data-bs-target="#mintModal">
                             Mint Now
                             <span class="hov_shape1"><img src="assets/images/icon/hov_shape_L_dark.svg" alt="" /></span>
                             <span class="hov_shape2"><img src="assets/images/icon/hov_shape_L_dark.svg" alt="" /></span>
                             <span class="square_hov_shape_dark"></span>
                         </button>
-                    </div>--> 			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-                    
-                    <div class="footer_stras_sect v2_baner_stars" style="margin-top:100px;">
-                        <div class="footer_stars">
-                            <span class="star_1"><img src="assets/images/icon/star_6.svg" alt="" /></span>
-                            <span class="star_2"><img src="assets/images/icon/star_3.svg" alt="" /></span>
-                            <span class="star_3"><img src="assets/images/icon/star_1.svg" alt="" /></span>
-                            <span class="star_4"><img src="assets/images/icon/star_7.svg" alt="" /></span>
-                            <span class="star_5"><img src="assets/images/icon/star_4.svg" alt="" /></span>
-                            <span class="star_6"><img src="assets/images/icon/star_2.svg" alt="" /></span>
-                            <span class="star_7"><img src="assets/images/icon/star_5.svg" alt="" /></span>
-                            
-                            <span class="star_8"><img src="assets/images/icon/star_2.svg" alt="" /></span>
-                            <span class="star_9"><img src="assets/images/icon/star_3.svg" alt="" /></span>
-                            <span class="star_10"><img src="assets/images/icon/star_1.svg" alt="" /></span>
-                            <span class="star_11"><img src="assets/images/icon/star_7.svg" alt="" /></span>
-                            <span class="star_12"><img src="assets/images/icon/star_4.svg" alt="" /></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                    </div >  		 
+          
+                </div>      
+</div></div>
         <!-- Banner Section End -->
 
         <!-- Owl carousel Section Start -->
@@ -844,7 +842,15 @@
         <script src="assets/js/faq.js"></script>
         <!-- main js -->
         <script src="assets/js/main.js"></script>
-		
+		<script>
+		function chk()
+		{
+		var w=$(".container2").width();
+				var h=$(".container2").height();
+				var d=w*1-h*1;
+		alert("width :"+w+ "height: "+h+" diff:"+d);
+		}
+		</script>
 	 
 	</body>
 </html>
