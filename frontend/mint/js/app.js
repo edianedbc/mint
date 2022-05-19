@@ -89,10 +89,12 @@ const updateConnectStatus = async () => {
           method: "eth_requestAccounts",
         })
         .then(function (accts) {
-          onboardButton.innerText = `✔ ..3.${accts[0].slice(-4)}`;
+          onboardButton.innerText = `✔ ...${accts[0].slice(-4)}`;
           notConnected.classList.remove('show-not-connected');
           notConnected.classList.add('hidden');
           // SHOW SPINNER
+		   alert("show");
+	  $("#not-connected").show();
           spinner.classList.remove('hidden');
           onboardButton.disabled = true;
           window.address = accts[0];
