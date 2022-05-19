@@ -19,7 +19,7 @@ const layerConfigurations = [
  
       { name: "bg" },
       { name: "Weapon" },
-      { name: "Body" },
+      { name: "Bird" },
      
       { name: "Ankle" }, 
       { name: "Belt" },
