@@ -21,6 +21,8 @@ window.addEventListener("DOMContentLoaded", async () => {
     // Check if User is already connected by retrieving the accounts
     await window.web3.eth.getAccounts().then(async (addr) => {
       accounts = addr;
+	  
+	  $("#not-connected").show();
     });
   }
 
