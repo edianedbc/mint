@@ -21,8 +21,7 @@ window.addEventListener("DOMContentLoaded", async () => {
     // Check if User is already connected by retrieving the accounts
     await window.web3.eth.getAccounts().then(async (addr) => {
       accounts = addr;
-	  alert("show");
-	  $("#not-connected").show();
+
     });
   }
 
@@ -75,6 +74,8 @@ const updateConnectStatus = async () => {
     spinner.classList.remove('hidden');
     window.contract = new web3.eth.Contract(abi, contractAddress);
     loadInfo();
+		  alert("show");
+	  $("#not-connected").show();
   } else {
     onboardButton.innerText = "Connect MetaMask!";
     // HIDE SPINNER
