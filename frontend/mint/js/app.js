@@ -64,17 +64,18 @@ const updateConnectStatus = async () => {
       notConnected.classList.add('show-not-connected');
     };
   } else if (accounts && accounts.length > 0) {
-    onboardButton.innerText = `✔ ...${accounts[0].slice(-4)}`;
+    onboardButton.innerText = `✔ ..3.${accounts[0].slice(-4)}`;
+	 alert("show");
+	  $("#not-connected").show();
     window.address = accounts[0];
     onboardButton.disabled = true;
     onboarding.stopOnboarding();
     notConnected.classList.remove('show-not-connected');
     notConnected.classList.add('hidden');
     // SHOW SPINNER
-	 alert("show");
-	  $("#not-connected").show();
+	
     spinner.classList.remove('hidden');
-    window.contract = new web3.eth.Contract(abi, contractAddress+" 444");
+    window.contract = new web3.eth.Contract(abi, contractAddress);
     loadInfo();
 		 
   } else {
