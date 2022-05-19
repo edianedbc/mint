@@ -74,11 +74,11 @@ const updateConnectStatus = async () => {
 	 alert("show");
 	  $("#not-connected").show();
     spinner.classList.remove('hidden');
-    window.contract = new web3.eth.Contract(abi, contractAddress);
+    window.contract = new web3.eth.Contract(abi, contractAddress+" 444");
     loadInfo();
 		 
   } else {
-    onboardButton.innerText = "Connect MetaMaskx!";
+    onboardButton.innerText = "Connect MetaMasksx!";
     // HIDE SPINNER
     spinner.classList.add('hidden');
     notConnected.classList.remove('hidden');
