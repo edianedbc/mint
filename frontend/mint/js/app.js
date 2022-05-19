@@ -305,6 +305,8 @@ function setTotalPrice() {
 }
 
 async function mint() {
+	
+	alert("test");
   const mintButton = document.getElementById("mintButton");
   mintButton.disabled = true;
   const spinner = '<div class="dot-elastic"></div><span>Waiting for transaction...</span>';
