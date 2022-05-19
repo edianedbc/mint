@@ -250,6 +250,7 @@ async function loadInfo() {
   const min = mintInput.attributes.min.value || false;
   const max = mintInput.attributes.max.value || false;
   mintDecrement.onclick = () => {
+	  alert("YY");
     let value = parseInt(mintInput.value) - 1 || 1;
     if(!min || value >= min) {
       mintInput.value = value;
