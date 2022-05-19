@@ -5,7 +5,7 @@ document.getElementById("connectWallet").addEventListener("click", async () => {
   const welcomeH1 = document.getElementById("welcomeH1");
   const welcomeH2 = document.getElementById("welcomeH2");
   const welcomeP = document.getElementById("welcomeP");
-alert("g");
+ 
   welcomeH1.innerText = welcome_h1;
   welcomeH2.innerText = welcome_h2;
   welcomeP.innerHTML = welcome_p;
