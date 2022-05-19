@@ -1285,7 +1285,7 @@ body .modal-backdrop {
     height: 100%;
 }
 .mint_count_list ul li .mint_quantity_sect input {
-    max-width: 58px;
+    max-width: 108px;
     width: 100%;
     border: none;
     border-left: 1px solid rgba(255, 255, 255, 0.1);
