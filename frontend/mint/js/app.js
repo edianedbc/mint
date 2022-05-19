@@ -1,7 +1,7 @@
 let accounts;
 
 // METAMASK CONNECTION
-window.addEventListener("DOMContentLoaded", async () => {
+document.getElementById("connectWallet").addEventListener("click", async () => {
   const welcomeH1 = document.getElementById("welcomeH1");
   const welcomeH2 = document.getElementById("welcomeH2");
   const welcomeP = document.getElementById("welcomeP");
