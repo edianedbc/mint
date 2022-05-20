@@ -14,15 +14,14 @@ const baseUri = "ipfs://bafybeigjebsb5ktuf5wta7lhjfj5s46db75gq5uraem6lkq2izn2rov
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 40,
     layersOrder: [
       { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "Weapon" },
+      { name: "Body" },
+      { name: "Ankle" },
+      { name: "Belt" },
+      { name: "Chest" },
     ],
   },
 ];
@@ -73,7 +72,7 @@ const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually
 let CONTRACT_ADDRESS = "0x24403Cdd5F6C6409D1dEeEe5b957b954C1A34914"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
-const GENERIC = false; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
+const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
 const GENERIC_DESCRIPTION = "Which Eagle you will get?"; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafkreigw5opphluok4ufyfaf5z62euoq5qrcizh56kv3xnpblgzqcla5da"; // Replace with your generic image that will display for all NFTs pre-reveal.
