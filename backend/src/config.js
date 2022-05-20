@@ -7,9 +7,9 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "EAGLETEST";
-const description = "SUP BITCHES";
-const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
+const namePrefix = "Eagle Arena";
+const description = "Eagle arena is a game filled with fantastic battle ready Eagles, where players can collect them as pets";
+const baseUri = "ipfs://QmRSJKxDJMQFPesP3C5hvS7qRWa12GdDZor1Ns5RWhDvhH"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
@@ -26,7 +26,7 @@ const layerConfigurations = [
         { name: "Chest" },
  
      
-    ],
+    ]
 
     
   }, 
@@ -54,8 +54,8 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'EAGLETEST';
-const CONTRACT_SYMBOL = 'ETS';
+const CONTRACT_NAME = 'Eagle Arnea';
+const CONTRACT_SYMBOL = 'EAN';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x22C8889A3a2D00Fb3A40a0e3a0A336Ba28Ff973a';
 const TREASURY_ADDRESS = '0x22C8889A3a2D00Fb3A40a0e3a0A336Ba28Ff973a';
@@ -80,8 +80,8 @@ let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually inclu
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
-const GENERIC_DESCRIPTION = "GUESS WHO'S BACK"; // Replace with what you want the generic descriptions to say.
-const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafkreicdw3yaeof3tdvdw7djzd7hujpjin3s2kcvpoldwcf5bg4ri5txcm"; // Replace with your generic image that will display for all NFTs pre-reveal.
+const GENERIC_DESCRIPTION = "Which Eagle you will get?"; // Replace with what you want the generic descriptions to say.
+const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafkreigw5opphluok4ufyfaf5z62euoq5qrcizh56kv3xnpblgzqcla5da"; // Replace with your generic image that will display for all NFTs pre-reveal.
 
 // Automatically set contract address if deployed using the deployContract.js script
 try {
