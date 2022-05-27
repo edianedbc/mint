@@ -9,7 +9,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "Eagle Arena";
 const description = "Eagle arena is a game filled with fantastic battle ready Eagles, where players can collect them as pets";
-const baseUri = "ipfs://bafybeieejh6j4izyqusqcyaedzlfjrbnihgaqgpgdha5p7ty5jjd52lgke"; // This will be replaced automatically
+const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
@@ -50,7 +50,7 @@ const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'Eagle Arnea';
-const CONTRACT_SYMBOL = 'EAN';
+const CONTRACT_SYMBOL = 'EAT';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x22C8889A3a2D00Fb3A40a0e3a0A336Ba28Ff973a';
 const TREASURY_ADDRESS = '0x22C8889A3a2D00Fb3A40a0e3a0A336Ba28Ff973a';
