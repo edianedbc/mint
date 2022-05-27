@@ -14,7 +14,7 @@ const baseUri = "ipfs://bafybeieejh6j4izyqusqcyaedzlfjrbnihgaqgpgdha5p7ty5jjd52l
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo:50,
+    growEditionSizeTo:10,
     layersOrder: [
       { name: "Background" },
       { name: "Weapon Set 1" },
