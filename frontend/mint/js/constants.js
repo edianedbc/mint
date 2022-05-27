@@ -1,5 +1,5 @@
 const contractAddress = "0x214Fb1F570C6c93276be5FA4F46B3112CFe5B6B1"; //Replace with your own contract address
-const chain = 'polygon'; // rinkeby or polygon
+const chain = 'polygon';  // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the Eagle Arena NFT Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
