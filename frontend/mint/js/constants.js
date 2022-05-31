@@ -1,4 +1,4 @@
-const contractAddress = "0x1Ba03feF3A12129Cb928b928daAF7293d8F14deb"; //Replace with your own contract address
+const contractAddress = "0x688418669D52E65C8489D5a4405BDB7DC9b3419C"; //Replace with your own contract address
 const chain = 'polygon';  // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the Eagle Arena NFT Project!!";
