@@ -14,7 +14,7 @@ const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo:10,
+    growEditionSizeTo:50,
     layersOrder: [
       { name: "Background" },
       { name: "Weapon Set 1" },
@@ -49,13 +49,13 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'polygon'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'Eagle Arnea';
-const CONTRACT_SYMBOL = 'EAT';
+const CONTRACT_NAME = 'Eagle Arnea 2';
+const CONTRACT_SYMBOL = 'EAT2';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x22C8889A3a2D00Fb3A40a0e3a0A336Ba28Ff973a';
 const TREASURY_ADDRESS = '0x22C8889A3a2D00Fb3A40a0e3a0A336Ba28Ff973a';
 const MAX_SUPPLY = 50; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 0.001; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const MINT_PRICE = 0.1; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 3; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
