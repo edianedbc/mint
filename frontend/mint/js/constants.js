@@ -633,7 +633,7 @@ const abi = [
         type: "uint256",
       },
     ],
-    name: "mint",
+    name: "minted eagle",
     outputs: [],
     stateMutability: "payable",
     type: "function",
