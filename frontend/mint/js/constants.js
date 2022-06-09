@@ -1,4 +1,4 @@
-const contractAddress = "0x8F938001c934AADF5B7eb576e1f4b69827206174"; //Replace with your own contract address
+const contractAddress = "0xAa6f7E32c57e2557cdFABbe683d5b19a98D54d7E"; //Replace with your own contract address
 const chain = 'polygon';  // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the Eagle Arena NFT Project!!";
@@ -18,7 +18,7 @@ const button_presale_coming_soon = "Get on the Whitelist";
 const button_presale_mint_whitelisted = "Mint Your Special NFT";
 const button_presale_mint_not_whitelisted = "Get on the Whitelist";
 const button_presale_already_minted = "Join The Community";
-const button_public_mint = "Mint Your Eagless";
+const button_public_mint = "Mint Your Eagles";
 const mint_failed = "Minting failed. 😢 Please try again.";
 
 const abi = [
