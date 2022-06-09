@@ -17,7 +17,7 @@ const layerConfigurations = [
     growEditionSizeTo:20,
     layersOrder: [
       { name: "P" },
- 7
+ 
     ],
   },
 ];
@@ -65,7 +65,7 @@ const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the
 const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
-let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
+let CONTRACT_ADDRESS = "0xbFc77E5ACF744e5Ff83e8Dd3B55AD9520e146522"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = false; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
