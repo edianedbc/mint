@@ -9,14 +9,19 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "POKEMON BETA";
 const description = "POKEMON PROJECT";
-const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
+const baseUri = "https://jedlian.net/nft/metadata2/"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo:20,
+    growEditionSizeTo:50,
     layersOrder: [
-      { name: "P" },
+      { name: "Background" },
+      { name: "Weapon" },
+      { name: "Body" },
+      { name: "Ankle" },
+      { name: "Belt" },
+      { name: "Chest" },
  
     ],
   },
