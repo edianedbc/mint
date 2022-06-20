@@ -14,14 +14,15 @@ const baseUri = "https://jedlian.net/nft/metadata2/"; // This will be replaced a
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo:50,
+    growEditionSizeTo:11,
     layersOrder: [
-      { name: "Background" },
-      { name: "Weapon" },
-      { name: "Body" },
-      { name: "Ankle" },
-      { name: "Belt" },
-      { name: "Chest" },
+      { name: "Background 2" },
+      { name: "Aura 2" },
+      { name: "Weapon 2" },
+      { name: "Body 2" },
+      { name: "Ankle 2" },
+      { name: "Belt 2" },
+      { name: "Chest 2" },
  
     ],
   },
