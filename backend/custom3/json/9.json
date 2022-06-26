@@ -1,0 +1,40 @@
+{
+  "name": "Eagle Arena - Immortal Eagles #9",
+  "description": "Eagle arena is a game filled with fantastic battle ready Eagles, where players can collect them as pets",
+  "image": "https://jedlian.net/nft/metadata5/9.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "unknown"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "Calm"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "Dual Blade"
+    },
+    {
+      "trait_type": "White Eagle Male",
+      "value": "White Eagle Male"
+    },
+    {
+      "trait_type": "Chest",
+      "value": "Black Ninja"
+    },
+    {
+      "trait_type": "Belt",
+      "value": "Red Ninja"
+    },
+    {
+      "trait_type": "Ankle",
+      "value": "Devil Rings"
+    }
+  ],
+  "dna": "504f6a206e9757a285404ee60c56ddc5049d3d52",
+  "edition": 9,
+  "external_url": "https://www.eaglearena.io/",
+  "date": 1656078176714,
+  "compiler": "HashLips Art Engine - codeSTACKr Modified"
+}

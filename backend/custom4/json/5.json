@@ -1,0 +1,40 @@
+{
+  "name": "Eagle Arena - Immortal Eagles #5",
+  "description": "Eagle arena is a game filled with fantastic battle ready Eagles, where players can collect them as pets",
+  "image": "https://jedlian.net/nft/metadata5/5.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "unknown"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "Rage"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "Voodoo Staff"
+    },
+    {
+      "trait_type": "Fish Eagle Male",
+      "value": "Fish Eagle Male"
+    },
+    {
+      "trait_type": "Chest",
+      "value": "Red Ice"
+    },
+    {
+      "trait_type": "Belt",
+      "value": "Dark Samurai"
+    },
+    {
+      "trait_type": "Ankle",
+      "value": "Hell Flame"
+    }
+  ],
+  "dna": "b3a41a1ebd57ade9af78c4f0d7cb0483d123f284",
+  "edition": 5,
+  "external_url": "https://www.eaglearena.io/",
+  "date": 1656078344248,
+  "compiler": "HashLips Art Engine - codeSTACKr Modified"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Eagle Arena - Immortal Eagles #5",
+  "description": "Eagle arena is a game filled with fantastic battle ready Eagles, where players can collect them as pets",
+  "image": "https://mint.eaglearena.io/metadata/5.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "test3"
+    },
+    {
+      "trait_type": "Aura",
+      "value": "Calm"
+    },
+    {
+      "trait_type": "Weapon",
+      "value": "Reaper"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Bald Eagle Male"
+    },
+    {
+      "trait_type": "Chest",
+      "value": "Skeletal Armor"
+    },
+    {
+      "trait_type": "Belt",
+      "value": "Evil Head Belt"
+    },
+    {
+      "trait_type": "Ankle",
+      "value": "Spider"
+    }
+  ],
+  "dna": "cbe8d22d9eab6a560f639828170ff2247610217c",
+  "edition": 5,
+  "external_url": "https://www.eaglearena.io/",
+  "date": 1656076061869,
+  "compiler": "HashLips Art Engine - codeSTACKr Modified"
+}

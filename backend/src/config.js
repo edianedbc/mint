@@ -7,22 +7,23 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "POKEMON BETA";
-const description = "POKEMON PROJECT";
-const baseUri = "https://jedlian.net/nft/metadata2/"; // This will be replaced automatically
+const namePrefix = "Eagle Arena - Immortal Eagles";
+const description = "Eagle arena is a game filled with fantastic battle ready Eagles, where players can collect them as pets";
+const baseUri = "https://mint.eaglearena.io/metadata"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
     growEditionSizeTo:11,
     layersOrder: [
-      { name: "Background 2" },
-      { name: "Aura 2" },
-      { name: "Weapon 2" },
-      { name: "Body 2" },
-      { name: "Ankle 2" },
-      { name: "Belt 2" },
-      { name: "Chest 2" },
+      { name: "Background" },
+      { name: "Aura" },
+      { name: "Weapon" },
+      { name: "Bald Eagle Male" },
+      { name: "Chest" },
+     
+      { name: "Belt" },
+      { name: "Ankle" },
  
     ],
   },
@@ -39,7 +40,7 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "https://codecats.xyz", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://www.eaglearena.io/", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
